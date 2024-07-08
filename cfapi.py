@@ -51,5 +51,3 @@ for r in retrieved[2]:
     print(r)
 
 write_all(choice, data)
-
-# I need only contestId, name, rating, tags, solved_cnt
