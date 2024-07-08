@@ -4,6 +4,7 @@ import random
 import string
 from data_get import *
 from KEY_SEC import *
+from main_ops import *
 
 current_time = int(datetime.datetime.now().timestamp())
 rand6 = ''.join(random.choices(string.digits + string.ascii_lowercase + string.ascii_uppercase, k=6))
