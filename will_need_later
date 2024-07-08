@@ -1,0 +1,8 @@
+
+# To return solved count for smth
+try:
+    with open("problemset.json", "r") as f:
+        problemset = json.load(f)
+except FileNotFoundError:
+    print("Problemset file not found, first load all problems with choice = 2")
+    return 0

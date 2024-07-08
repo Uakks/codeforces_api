@@ -1,0 +1,31 @@
+Add functionalities:
+
+choices must be - 16 for each of these:
+blogEntry.comments
+blogEntry.view
+contest.hacks
+contest.list
+contest.ratingChanges
+contest.standings
+contest.status
+problemset.problems
+problemset.recentStatus
+recentActions
+user.blogEntries
+user.friends
+user.info
+user.ratedList
+user.rating
+user.status
+
+for user.status - extract every accepted problems, make a plot of how many problems i solved overall
+add unsolved problems and their rating to another page. Make sorting options like -
+ascending, descending order
+searching from ___ elo to ___ elo, search by elo
+search by tags +- dont really need it tho
+make a dictionary with all problems that i solved and extract every information from there
+AND OBVIOUSLY MAKE THAT THING WHY I STARTED ALL OF IT - count the numbers of solved problems for some elo, primarily 1400
+
+dont really care about blogs, but maybe do some searching, filtering functionality
+
+Also make jsonp as written in documentation in cf
